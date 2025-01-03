@@ -150,4 +150,4 @@ output_dir = '/home/patriciiarodrigs/TCC/projeto/'
 os.makedirs(output_dir, exist_ok=True)
 model.save(os.path.join(output_dir, 'vgg_model.h5'))
 
-print("Modelo salvo com sucesso.")
+print("Modelo salvo")
